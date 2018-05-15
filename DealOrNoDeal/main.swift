@@ -13,14 +13,14 @@ var countOfBriefcasesOpened = 3
 // e.g.: write the rest of the INPUT section
 
 
-// PROCESS
+// PROCESS & OUTPUT
 // Implement the primary logic of the problem here
 // Some output may be given here if you desire
 
 // Example of how to collect multiple input lines
 for counter in 1...countOfBriefcasesOpened {
     
-    // Ask how many pictures in this particular arrangement
+    // Ask what briefcase was opened in this turn
     print("Briefcase opened, in turn \(counter), was:")
     
     // Get the input (use guard-let to guarantee it is not nil)
@@ -30,12 +30,7 @@ for counter in 1...countOfBriefcasesOpened {
         continue
     }
     
-    // Now we have the line, we can print it out, analyze it as needed, et cetera
-    print(givenInput)
+    // Implement the rest of the logic for the program here
     
 }
-
-// OUTPUT
-// Report results to the user here
-
 
