@@ -17,7 +17,7 @@ var countOfBriefcasesOpened = 3
 // Implement the primary logic of the problem here
 // Some output may be given here if you desire
 
-// Example of how to collect multiple input lines
+// Collect the list of what briefcases were opened here
 for counter in 1...countOfBriefcasesOpened {
     
     // Ask what briefcase was opened in this turn
