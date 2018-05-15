@@ -30,7 +30,9 @@ for counter in 1...countOfBriefcasesOpened {
         continue
     }
     
-    // Implement the rest of the logic for the program here
+    // What was provided?
+    print("The given input was: \(givenInput)")
     
+    // Implement the rest of your logic here...
 }
 
